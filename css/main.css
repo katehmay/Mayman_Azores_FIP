@@ -1,16 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400|Montserrat:300,300i|Playfair+Display:300,300i,400,400i|Quicksand:400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400|Montserrat:300,300i,700|Playfair+Display:300,300i,400,400i&display=swap');
 
 /*      DEFAULT STYLING      */
 
 body{
-font-family: 'Quicksand', sans-serif;
+font-family: 'Montserrat', sans-serif;
 font-size:16px;
+font-weight:300;
 letter-spacing:1px;
 line-height:26px;
 background-color:#1c272d;
 }
 
-.hidden{ visibility:hidden; }
+.hidden{ display:none; }
 
 .clear {
   content: "";
@@ -117,9 +118,9 @@ h4{
   width:130px;
   height:35px;
   background-color:#81a328;
-  font-family:'Quicksand', sans-serif;
+  font-family:'Montserrat', sans-serif;
   font-size:14px;
-  font-weight:500;
+  font-weight:700;
   letter-spacing:1px;
   border:none;
   color:#fff;
