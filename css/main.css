@@ -4,7 +4,7 @@
 
 body{
 font-family: 'Montserrat', sans-serif;
-font-size:16px;
+font-size:15px;
 font-weight:300;
 letter-spacing:1px;
 line-height:26px;
@@ -81,36 +81,7 @@ h4{
   line-height:29px;
 }
 
-#mainnav a, #mainnav a:visited{
-  font-family:'Josefin Sans', sans-serif;
-  font-weight:300;
-  color:#d8e7af;
-  text-decoration:none;
-  padding-top:22px;
-  padding-bottom:18px;
-  padding-left:18px;
-  padding-right:18px;
-  margin:0;
-}
-
-#mainnav a:hover{
-  color:#fff;
-  background-color:rgba(129, 163, 40, .65);
-  transition: 0.5s;
-}
-
-#mainnav a.selected{ color:#fff; background-color:#81a328; }
-
-#sub-nav a{
-  text-decoration:none;
-  font-size:13px;
-  letter-spacing:3px;
-  line-height:30px;
-  color:#dfdfe0;
-  opacity:0.8;
-}
-
-#sub-nav a:hover{ opacity:1; transition:0.5s; }
+a, a:link, a:visited, a:hover{ color:#71bdb6; text-decoration:none; }
 
 .traa-button{
   margin-top:25px;
@@ -126,10 +97,22 @@ h4{
   color:#fff;
 }
 
-.traa-button:hover{
-  transition:0.5s;
-  background-color:#01675f;
+.traa-button:hover{ transition:0.5s; background-color:#01675f; }
+
+#newsletter-button{
+  margin-top:25px;
+  margin-bottom:25px;
+  width:210px;
+  height:70px;
+  background-color:#81a328;
+  font-family:'Josefin Sans', sans-serif;
+  font-size:24px;
+  letter-spacing:2px;
+  border:none;
+  color:#fff;
 }
+
+#newsletter-button:hover{ transition:0.5s; background-color:#01675f; }
 
 /*              MAIN HEADER HERE               */
 
@@ -148,17 +131,9 @@ h4{
   background-size: cover;
 }
 
-#header-wrapper{
-  background-color:#1c272d;
-  padding-bottom:80px;
-}
+#header-wrapper{ background-color:#1c272d; padding-bottom:100px; }
 
-#logo{
-  margin-top:10px;
-  margin-left:60px;
-  margin-bottom:55px;
-  float:left;
-}
+#logo{ margin:10px 0 55px 60px; float:left; }
 
 #mainnav{
   height:55px;
@@ -167,6 +142,24 @@ h4{
   border-bottom-width:15px;
   border-bottom-color:#81a328;
 }
+
+#mainnav a, #mainnav a:visited{
+  font-family:'Josefin Sans', sans-serif;
+  font-weight:300;
+  color:#d8e7af;
+  text-decoration:none;
+  padding:22px 18px 19px 18px;
+  margin:0;
+  opacity:1;
+}
+
+#mainnav a:hover{
+  color:#fff;
+  background-color:rgba(129, 163, 40, .85);
+  transition: 0.5s;
+}
+
+#mainnav a.selected{ color:#fff; background-color:#81a328; }
 
 #mainnav ul{
   text-align:right;
@@ -178,7 +171,6 @@ h4{
 
 #page-info-bg{
   margin:0 auto;
-  height:265px;
   width:900px;
   background-color:rgb(2, 87, 80, .85);
   -webkit-box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.8);
@@ -231,20 +223,11 @@ h4{
   margin-bottom:15px;
 }
 
-.events{
-  width:500px;
-  margin-bottom:80px;
-}
+.events{ width:500px; margin-bottom:80px; }
 
-.events-img{
-  margin-bottom:25px;
-  text-align:center;
-}
+.events-img{ margin-bottom:25px; text-align:center; }
 
-.events-txt{
-  padding-left:30px;
-  padding-right:10px;
-}
+.events-txt{ padding-left:30px; padding-right:10px; }
 
 .events-past-h3{
   padding-top:70px;
@@ -275,10 +258,7 @@ h4{
   text-decoration:none;
 }
 
-.events-past-nav a:hover{
-  opacity:0.5;
-  transition:0.3s;
-}
+.events-past-nav a:hover{ opacity:0.5; transition:0.3s; }
 
 .past-column{
   margin:0 auto;
@@ -286,19 +266,12 @@ h4{
   width:980px;
   display:flex;
   flex-wrap:wrap;
-  justify-content:space-between;
+  justify-content:center;
 }
 
-.past-img{
-  width:400px;
-  height:290px;
-}
+.past-img{ width:400px; height:290px; }
 
-.past-txt{
-  width:515px;
-  margin-right:15px;
-  margin-bottom:65px;
-}
+.past-txt{ width:515px; margin:0 15px 65px 30px; }
 
 #events-past .aside-txt{
   color:#000;
@@ -306,6 +279,120 @@ h4{
   margin-bottom:15px;
   margin-top:-5px;
 }
+
+/*          RESOURCES PAGE STARTS HERE        */
+
+.resources p{ padding-top:15px; padding-bottom:15px;}
+
+.resources a,.resources a:link, .resources a:visited {
+  color:#00746b;
+  font-size:17px;
+  text-decoration:underline;
+  text-underline-position:under;
+}
+
+.resources a:hover{ transition:none; color:#71bdb6;}
+
+.resources h2 {
+  color:#1c272d;
+  text-align:left;
+  font-style:italic;
+}
+
+#resource-conserve{
+  margin:0 auto;
+  width:850px;
+  background-color:#fff;
+  padding:50px 150px 30px 150px;
+}
+
+#resource-fishing{
+  margin:0 auto;
+  width:850px;
+  background-color:#fff;
+  padding:0 150px 25px 150px;
+}
+
+#resources-links{
+  margin:0 auto;
+  padding-top:15px;
+  padding-bottom:50px;
+  width:1050px;
+  display:flex;
+  justify-content:space-between;
+}
+
+#resource-authorities, #resource-governmental, #resource-retailers{ width:300px; margin:0 auto;}
+
+#resource-nl-info{
+  background-color:#1c272d;
+  padding-top:80px;
+  padding-bottom:60px;
+}
+
+#resource-newsletter{
+  background-image:url('../images/newsletter-bg.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  text-align:center;
+  height:260px;
+  padding-top:85px;
+  padding-bottom:60px;
+}
+
+#resource-nl-past{
+  margin:0 auto;
+  width:1050px;
+  padding:60px 0 60px 0;
+}
+
+#resource-nl-past h2{ color:#1c272d; padding-bottom:30px;}
+
+#resource-nl-past p{
+  margin:0 auto;
+  width:700px;
+  text-align:center;
+}
+
+#resource-nl-archive{
+  width:1050px;
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+}
+
+.newsletter-archive{
+  padding-top:60px;
+}
+
+.newsletter-archive h5{
+  text-align:center;
+  font-style:'Montserrat', sans-serif;
+  font-size:20px;
+  color:#fff;
+  background-color:#1c272d;
+  width:318px;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+
+#nl-arch-links{
+  font-style:'Montserrat', sans-serif;
+  font-size:17px;
+  color:#fff;
+  background-color:#00746b;
+  padding:20px 35px 20px 35px;
+  margin-top:10px;
+  margin-bottom:10px;
+  float:left;
+}
+
+#nl-arch-links a{ color:#fff; }
+#nl-arch-links a:hover{ opacity:0.5; transition:0.5s; }
+
+.nl-short-1{ width:59px; }
+.nl-short-2{ width:119px; }
+.nl-long{ width:248px; }
 
 /*          FOOTER BEGINS HERE        */
 
@@ -328,7 +415,11 @@ h4{
   font-style:italic;
 }
 
-#footer-info{  margin:0 auto; display:flex; justify-content:center;}
+#footer-info{
+  margin:0 auto;
+  display:flex;
+  justify-content:center;
+}
 
 #quicklinks{ width:440px; margin-top:55px; }
 
@@ -340,12 +431,20 @@ h4{
   padding-left:8px;
 }
 
-#sub-social a:hover, #sub-contact a:hover{
-  opacity:0.5;
-  transition:0.5s;
-}
+#sub-social a:hover, #sub-contact a:hover{ opacity:0.5; transition:0.5s; }
 
 #sub-nav{   margin-top:45px; display:flex; }
+
+#sub-nav a{
+  text-decoration:none;
+  font-size:13px;
+  letter-spacing:3px;
+  line-height:30px;
+  color:#dfdfe0;
+  opacity:0.8;
+}
+
+#sub-nav a:hover{ opacity:1; transition:0.5s; }
 
 #sub-nav li{ display:inline; }
 
