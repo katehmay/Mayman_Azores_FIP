@@ -37,4 +37,4 @@
   </ul>
 
 <h3>License</h3>
-<p>ICS</p>
+<p>Content © Thames River Anglers Association 2019 based in London, ON & surrounding area. All rights reserved. Used with permission.</p>

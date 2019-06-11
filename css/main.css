@@ -143,7 +143,7 @@ a, a:link, a:visited, a:hover{ color:#71bdb6; text-decoration:none; }
 
 /*#about-header-wrapper { background-color:#1c272d; height:502px;}*/
 
-#header-wrapper{ background-color:#192228; padding-bottom:100px; }
+#header-wrapper{ background-color:#1c272d; padding-bottom:100px; }
 
 #logo{ margin:10px 0 55px 60px; float:left; }
 
@@ -310,7 +310,12 @@ a, a:link, a:visited, a:hover{ color:#71bdb6; text-decoration:none; }
 }
 
 .cta-button {
-  background-color: #477623;
+  background-color: #00513e;
+}
+
+.button:hover{
+  opacity:0.5;
+  transition:0.5s;
 }
 /*          ABOUT SECTION               */
 #about {
@@ -361,7 +366,7 @@ a, a:link, a:visited, a:hover{ color:#71bdb6; text-decoration:none; }
 
 /*          LATEST NEWS SECTION               */
 #news {
-  height: 980px;
+  height: 880px;
   width: 100%;
   padding-top: 80px;
   overflow: auto;
@@ -370,7 +375,7 @@ a, a:link, a:visited, a:hover{ color:#71bdb6; text-decoration:none; }
 
 .news-Container {
   width: 2030px;
-  height: 780px;
+  height: 650px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -624,7 +629,7 @@ input[type=email], textarea {
   opacity: 0.5;
 }
 
-:-ms-input-placeholder { 
+:-ms-input-placeholder {
   color: #ffffff;
   opacity: 0.5;
 }
@@ -682,8 +687,8 @@ input[type=submit]{
 
 .about-page-info-bg {
   width: 100%;
-  height: 400px;
-  background-color: #192228;
+  height: 315px;
+  background-color: #1c272d;
 }
 
 .gallery {
@@ -702,7 +707,7 @@ input[type=submit]{
 }
 
 #about-mission {
-  height: 717px;
+  padding-bottom:80px;
 }
 
 .about-mission-Container {
@@ -711,7 +716,7 @@ input[type=submit]{
 }
 
 .about-mission-Container h3 {
-  margin-top: 140px;
+  margin-top: 80px;
   margin-bottom: 50px;
 }
 
@@ -723,14 +728,14 @@ input[type=submit]{
 }
 
 .mission-info {
-  width: 453px;
+  width: 445px;
   margin: 0 auto;
   margin-bottom: 50px;
 }
 
-ul.mission-Content {
+ul.mission-Content{
   list-style-type: circle !important;
-  list-style-position: inside;
+  list-style-position: outside;
 }
 
 .mission-Content li {
@@ -781,14 +786,15 @@ ul.mission-Content {
   font-family: 'Playfair Display', serif;
   font-size: 30px;
   font-style: italic;
-  line-height: 43px;
+  line-height: 40px;
   color: #ffffff;
   letter-spacing: 3px;
+  padding-bottom:7px;
 }
 
 .board-members-Content h6 {
   font-family: 'Montserrat' sans-serif !important;
-  font-size: 27px;
+  font-size: 25px;
   font-weight: 300;
   line-height: 41px;
   color: #ffffff;
@@ -930,7 +936,6 @@ ul.mission-Content {
 
 #events-upcoming{
   margin:0 auto;
-  width:1150px;
   background-color:#fff;
   padding-top:50px;
 }
@@ -938,7 +943,7 @@ ul.mission-Content {
 #events-new{
   margin:0 auto;
   margin-top:70px;
-  width:1050px;
+  width:1020px;
   display:flex;
   flex-wrap:wrap;
   justify-content:space-between;
