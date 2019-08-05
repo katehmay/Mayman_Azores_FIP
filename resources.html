@@ -16,25 +16,46 @@
     <div id="header-wrapper">
       <header id="other-head">
 
-                    <!--         TRAA LOGO     --->
+        <!--         TRAA LOGO     --->
 
-        <div id="logo">
-          <a href="index.html"><img src="images/anglers-logo.png" alt="Anglers logo"></a>
-        </div>
         <nav id="mainnav">
+          <h2 class="hidden">Main Navigation</h2>
 
-                  <!--         MAIN NAVIGATION     --->
+        <header id="mainheader" class="row">
 
-          <h1 class="hidden">Navigation</h1>
-          <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="about.html">ABOUT</a></li>
-            <li><a href="projects.html">PROJECTS</a></li>
-            <li><a href="events.html">EVENTS</a></li>
-            <li><a href="resources.html" class="selected">RESOURCES</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
-          </ul>
+          <div id="logo" class="clear">
+            <a href="index.html"><img src="images/anglers-logo.png" alt="Anglers logo" ></a>
+        </div>
+
+        <nav id="nav-mobile">
+          <button id="button"></button>
+
+          <div id="burgerCon">
+            <h1 class="hidden">Mobile Navigation</h1>
+            <ul id="burgerMenu">
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="projects.html">PROJECTS</a></li>
+              <li><a href="events.html">EVENTS</a></li>
+              <li><a href="resources.html">RESOURCES</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+          </div>
         </nav>
+
+        <nav id="nav-desktop">
+        <h1 class="hidden">Desktop Navigation</h1>
+         <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="projects.html">PROJECTS</a></li>
+          <li><a href="events.html" class="selected">EVENTS</a></li>
+          <li><a href="resources.html">RESOURCES</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        </nav>
+        </nav>
+        </header>
         <section id="page-info-bg" class="clear">
 
                   <!--         RESOURCES INTRO       --->
@@ -177,24 +198,27 @@
 
      <!--         LOCATION FISHING & RETAILERS BEGINS HERE    --->
 
-      <h2>Local Fishing<br>& Retailers</h2>
-      <a href="http://anglingsports.ca/index.html" target="_blank">Angling Sports</a>
+       <article id="resource-ret-1">
+        <h2>Local Fishing<br>& Retailers</h2>
+        <a href="http://anglingsports.ca/index.html" target="_blank">Angling Sports</a>
 
-      <p>681 Highbury Ave N,<br>London, ON N5W 4L4<br>(519-649-7429)</p>
+        <p>681 Highbury Ave N,<br>London, ON N5W 4L4<br>(519-649-7429)</p>
 
-      <u style="text-underline-position:under; font-size:17px">Lambeth Rod & Tackle</u>
+        <a href="#">Lambeth Rod & Tackle</a></u>
 
-      <p>2404 Main Street,<br>
-      London, ON N6P 1R2<br>(519-652-5598)</p>
+        <p>2404 Main Street,<br>
+        London, ON N6P 1R2<br>(519-652-5598)</p>
+      </article>
+      <article id="resource-ret-2">
+        <a href="http://www.freewebs.com/johnsflymaterials/" target="_blank">John's Fly Materials</a>
 
-      <a href="http://www.freewebs.com/johnsflymaterials/" target="_blank">John's Fly Materials</a>
+        <p>96 Rectory Street,<br>London, ON N5Z 1Z9<br>(226-270-9029)</p>
 
-      <p>96 Rectory Street,<br>London, ON N5Z 1Z9<br>(226-270-9029)</p>
+        <a href="https://www.facebook.com/AnglingOutfitters/" target="_blank">Angling Outfitters</a>
 
-      <a href="https://www.facebook.com/AnglingOutfitters/" target="_blank">Angling Outfitters</a>
+        <p>684460 Road 68,<br>Woodstock, ON N4S 7V7<br>(519-539-5494)</p>
 
-      <p>684460 Road 68,<br>Woodstock, ON N4S 7V7<br>(519-539-5494)</p>
-
+      </article>
       </section>
     </section>
 
@@ -208,7 +232,6 @@
         <h1 class="hidden">Aside - Newsletter Info</h1>
         <p>
           The first newsletters were banged out manually on a typewriter and then copied about 100 times for distribution. These initial efforts were simple (no pictures or colour!) but they did the job.
-            <br><br>
           The latest versions are electronic, emailed to members and other TRAA friends. They feature nice formatting, pictures and yes, colour!
         </p>
       </aside>
