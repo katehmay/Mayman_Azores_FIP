@@ -15,27 +15,121 @@
     <h1 class="hidden">Thames River Anglers Association</h1>
     <div id="header-wrapper">
       <header id="other-head">
-        <div id="logo">
-          <a href="index.html"><img src="images/anglers-logo.png" alt="Anglers logo"></a>
-        </div>
+        <!--         TRAA LOGO     --->
+
         <nav id="mainnav">
-          <h1 class="hidden">Navigation</h1>
-          <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="about.html">ABOUT</a></li>
-            <li><a href="projects.html">PROJECTS</a></li>
-            <li><a href="events.html">EVENTS</a></li>
-            <li><a href="resources.html">RESOURCES</a></li>
-            <li><a href="contact.html" class="selected">CONTACT</a></li>
-          </ul>
+          <h2 class="hidden">Main Navigation</h2>
+
+        <header id="mainheader" class="row">
+
+          <div id="logo" class="clear">
+            <a href="index.html"><img src="images/anglers-logo.png" alt="Anglers logo" ></a>
+        </div>
+
+        <nav id="nav-mobile">
+          <button id="button"></button>
+
+          <div id="burgerCon">
+            <h1 class="hidden">Mobile Navigation</h1>
+            <ul id="burgerMenu">
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="projects.html">PROJECTS</a></li>
+              <li><a href="events.html">EVENTS</a></li>
+              <li><a href="resources.html">RESOURCES</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+          </div>
         </nav>
+
+        <nav id="nav-desktop">
+        <h1 class="hidden">Desktop Navigation</h1>
+         <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="projects.html">PROJECTS</a></li>
+          <li><a href="events.html">EVENTS</a></li>
+          <li><a href="resources.html">RESOURCES</a></li>
+          <li><a href="contact.html" class="selected">CONTACT</a></li>
+        </ul>
+        </nav>
+        </nav>
+        </header>
+        <section id="page-info-bg" class="clear">
+
+                  <!--         RESOURCES INTRO       --->
+
+          <article id="page-info">
+            <h1>CONTACT THE TRAA</h1>
+            <h2>TRAA Would Like to Hear From You</h2>
+            <aside id="page-body">
+              <h1 class="hidden">Aside - Resources Info</h1>
+              <p>There's a bunch of ways to get in touch with the TRAA. If you're with a like-minded organization looking for more information on the TRAA and its activities, or an individual who would like to become involved with the activities undertaken by the TRAA, the TRAA would like to hear from you.</p>
+            </aside>
+          </article>
+        </section>
       </header>
     </div>
 
-    <section id="nextdiv">
-      <p class="hidden">
-        DELETE MEEEEEEE
+    <section id="contact-meetup">
+      <h1 class="hidden">Contact – TRAA Meeting Info</h1>
+      <h3>TRAA General <span class="h2-italics">Meeting</span></h3>
+      <p><span class="drop-cap">T</span>he TRAA meets every second Wednesday of each month. We always try to get the meetings started by 7:00pm so try to be there a few minutes beforehand. The venue is the Western Ontario Fish & Game Protective Association's clubhouse located just east of the Dearness Home on Southdale Road (East), on the North side of Southdale Road. The address is 790 Southdale Road East, London, Ontario. Guests are always welcome!
+      <br><br>Note: Every now and then we have "off-site" meetings. For example, the July and August meetings are "fishing meetings" so we won't be at WOFGPA clubhouse. Stay on top of these changes by visiting this website often.
       </p>
+    </section>
+
+    <section id="contact-form">
+        <h3>Contact Us</h3>
+        <section id="contact-f-container">
+          <article class="form-container">
+            <form class="form-c-1">
+              <label for="fname">First Name:</label><br>
+              <input type="text" id="fname" name="firstname">
+            </form>
+            <form class="form-c-2">
+              <label for="lname">Last Name:</label><br>
+              <input type="text" id="lname" name="lastname">
+            </form>
+            <form class="form-c-3">
+              <label for="fname">Email:</label><br>
+              <input type="text" id="fname" name="firstname">
+            </form>
+            <form class="form-c-4">
+              <label for="lname">Phone:</label><br>
+              <input type="text" id="lname" name="lastname">
+            </form>
+            <form class="form-c-5">
+            <label for="subject">Message</label>
+            <textarea id="subject" name="subject"></textarea>
+
+            <input type="submit" value="SUBMIT">
+          </form>
+        </article>
+
+        <article id="contact-map">
+          General Meeting Location<br>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.5510974402778!2d-81.22193114752282!3d42.945647687488616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef3b01c9e9983%3A0x84558efdb9f3a3a1!2s790+Southdale+Rd+E%2C+London%2C+ON+N6E+1A8!5e0!3m2!1sen!2sca!4v1565149345112!5m2!1sen!2sca" width="375" height="275" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </article>
+      </section>
+    </section>
+
+    <section id="contact-info">
+      <article id="contact-mail">
+        <img src="images/social/sm-address.svg" alt="Mailing Address"><br>
+        Thames River Anglers Association<br>
+        2202 Coronation Drive N6G 0B9
+      </article>
+      <article id="contact-email">
+        <img src="images/social/sm-email.svg" alt="Email Address"><br>
+        Email Address:<br>
+        traa@anglers.org
+      </article>
+      <article id="contact-meet">
+        <img src="images/social/sm-address.svg" alt="Meeting Address"><br>
+        General Meetup Address:<br>
+        790 Southdale Rd E.
+      </article>
     </section>
 
     <footer id="footer" class="clear">
