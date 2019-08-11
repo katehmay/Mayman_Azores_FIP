@@ -8,19 +8,41 @@
   <link rel="stylesheet" href="css/reset.css">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400|Montserrat:300,300i,400|Playfair+Display:400,400i&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/mikka.css">
 </head>
-
+ 
 <body>
   <main id="wrapper">
     <h1 class="hidden">Thames River Anglers Association</h1>
     <div id="index-header-wrapper">
       <header id="index-head">
-        <div id="logo">
-          <a href="index.html"><img src="images/anglers-logo.png" alt="Anglers logo"></a>
-        </div>
-
         <nav id="mainnav">
-        <h1 class="hidden">Navigation</h1>
+          <h2 class="hidden">Main Navigation</h1>
+
+         <header id="mainheader" class="row">
+
+          <div id="logo" class="clear">
+            <a href="index.html"><img src="images/anglers-logo.png" alt="Anglers logo" ></a>
+        </div>
+ 
+        <nav id="nav-mobile">
+          <button id="button"></button>
+
+          <div id="burgerCon">
+            <h1 class="hidden">Mobile Navigation</h1>
+            <ul id="burgerMenu">
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="projects.html">PROJECTS</a></li>
+              <li><a href="events.html">EVENTS</a></li>
+              <li><a href="resources.html">RESOURCES</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <nav id="nav-desktop">
+        <h1 class="hidden">Desktop Navigation</h1>
          <ul>
           <li><a href="index.html" class="selected">HOME</a></li>
           <li><a href="about.html">ABOUT</a></li>
@@ -29,9 +51,10 @@
           <li><a href="resources.html">RESOURCES</a></li>
           <li><a href="contact.html">CONTACT</a></li>
         </ul>
-      </nav>
+        </nav>
+        </nav>
 
-      <section id="tagline" class="clear">
+      <section id="tagline">
         <h1 class="hidden">Welcome Section</h1>
         <article id="tagline-info">
           <h1>WELCOME TO THE TRAA</h1>
@@ -97,50 +120,63 @@
 
   <section id="news">
     <h3>Latest <span class="h2-italics">News</span></h3>
-    <div class="news-Container">
-      <section class="news-Content">
-        <div class="news-img">
-          <img src="images/index/index-news-paddle.jpg" alt="TRAA Paddle & Fish">
-        </div>
-        <div class="news-txt">
-          <h4>The Annual TRAA Paddle & Fish</h4>
-          <p>We've picked the date for this year's Paddle & Fish but have yet to decide on the route. So far, the route with the most support is the South Thames River east of London.</p>
-        </div>
-      </section>
-
-      <section class="news-Content">
-        <div class="news-img">
-          <img src="images/index/index-news-trout.jpg" alt="TRAA Rainbow Trout Eggs">
-        </div>
-        <div class="news-txt">
-          <h4>Rainbow Trout Eggs have Arrived!</h4>
-          <p>This year's allotment of rainbow trout eggs were delivered to the trout hatchery April 16th. This means we now have both rainbows and browns in the hatchery together! It's a great time to visit as you can see the trout both in the egg and the fry stage. </p>
-        </div>
-      </section>
-
-      <section class="news-Content">
-        <div class="news-img">
-          <img src="images/index/index-news-merch.jpg" alt="TRAA Merchandise of caps and shirts">
-        </div>
-        <div class="news-txt">
-          <h4>TRAA Gear is now available!</h4>
-          <p>From T-shirts to hats to stickers, get your TRAA Gear at any TRAA event, such as this coming General Meeting. T-shirts and hats are priced at $15 and stickers are $2. Anyone who becomes a TRAA member gets a complementary sticker!
-          </p>
-        </div>
-      </section>
-    </div>
-
-    <section id="news-Navigation">
+     <section class="news-Navigation">
       <h1 class="hidden">News Navigation</h1>
-      <div class="leftArrow">
+      <div class="arrows">
         <img src="images/arrow-left.png" alt="left arrow">
       </div>
-      <div class="rightArrow">
+
+    <div class="news-Container">
+      <div class="news-Content-Container">
+        <section class="news-Content">
+          <div class="news-img">
+            <img src="images/index/index-news-paddle.jpg" alt="TRAA Paddle & Fish">
+          </div>
+          <div class="news-txt">
+            <h4>The Annual TRAA Paddle & Fish</h4>
+            <p>We've picked the date for this year's Paddle & Fish but have yet to decide on the route. So far, the route with the most support is the South Thames River east of London.</p>
+          </div>
+        </section>
+
+        <section class="news-Content">
+          <div class="news-img">
+            <img src="images/index/index-news-trout.jpg" alt="TRAA Rainbow Trout Eggs">
+          </div>
+          <div class="news-txt">
+            <h4>Rainbow Trout Eggs have Arrived!</h4>
+            <p>This year's allotment of rainbow trout eggs were delivered to the trout hatchery April 16th. This means we now have both rainbows and browns in the hatchery together! It's a great time to visit as you can see the trout both in the egg and the fry stage. </p>
+          </div>
+        </section>
+
+        <section class="news-Content">
+          <div class="news-img">
+            <img src="images/index/index-news-merch.jpg" alt="TRAA Merchandise of caps and shirts">
+          </div>
+          <div class="news-txt">
+            <h4>TRAA Gear is now available!</h4>
+            <p>From T-shirts to hats to stickers, get your TRAA Gear at any TRAA event, such as this coming General Meeting. T-shirts and hats are priced at $15 and stickers are $2. Anyone who becomes a TRAA member gets a complementary sticker!
+            </p>
+          </div>
+        </section>
+      </div>
+    </div>
+
+      <div class="arrows">
         <img src="images/arrow-right.png" alt="right arrow">
       </div>
     </section>
-  </section>
 
+    <section class="news-Navigation-Desktop">
+      <h1 class="hidden">News Navigation</h1>
+      <div class="arrows-Desktop">
+        <img src="images/arrow-left.png" alt="left arrow">
+      </div>
+
+      <div class="arrows-Desktop">
+        <img src="images/arrow-right.png" alt="right arrow">
+      </div>
+  </section>
+</section>
 
   <section id="events-home">
     <h1 class="hidden">Events Section</h1>
@@ -232,7 +268,7 @@
         </div>
         <div class="projects-home-txt">
           <h4>Salmonid Monitoring</h4>
-          <p>Here's an overview of what happened over a few weekends in the Spring of 2012 when TRAA members & personnel from the Upper Thames River Conservation Authority (UTRCA) waded in for Year 3 of our 5-year
+          <p>Here's an overview of what happened over a few weekends in the Spring of 2012 when TRAA members & personnel from the Upper Thames River Conservation Authority (UTRCA) waded in for Year 3 of our 5-year Salmonid Tagging and Monitoring Program.</p>
           <button class="button project-learnmore">
             <a href="projects.html">LEARN MORE</a>
           </button>
