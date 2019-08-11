@@ -939,6 +939,270 @@ ul.mission-Content {
 
 /* MOBILE PROJECTS PAGE */
 
+#current-proj {
+  width: 100%;
+}
+
+.current-proj-Container {
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 55px;
+  display: flex;
+  flex-direction: column;
+}
+
+#current-proj h2 {
+  color: #000000;
+  padding-bottom: 30px;
+}
+
+.current-proj-Content {
+  width: 100%;  
+  padding-bottom: 340px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+}
+
+.current-proj-img {
+  width: 100%;
+  height: 290.095px;
+}
+
+.salmonid-image {
+  background: url('../images/projects-salmonid.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.trout-image {
+  background: url('../images/projects-trout.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.current-proj-txt {
+  width: 90%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 230px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #01675f;
+  border-left: solid 20px #025239;
+  padding-top: 25px;
+  padding-left: 15px;
+  padding-right: 30px;
+  padding-bottom: 25px;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.current-proj-txt h1, .past-proj-contTitle h1 {
+  text-align: left;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 0 0 20px 0;
+}
+
+.current-proj-txt p {
+  color: #ffffff;
+}
+
+.current-proj-txt button {
+  background-color: #024624;
+}
+
+#past-proj {
+  width: 100%;
+  background: url('../images/index/index-events-section.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.past-proj-title {
+  background-color: #81a328;
+  padding: 30px 0 20px 0;
+}
+
+.past-proj-Container {
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.past-proj-Content {
+  width: 100%;
+  padding-bottom: 130px;
+}
+
+.past-proj-img {
+  width: 100%;
+  height: 235px;
+}
+
+.walleye-image {
+  background: url('../images/project-walleye.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.steam-image {
+  background: url('../images/project-steameye.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.past-proj-txt {
+  width: 75%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: -30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 25px;
+  background-color: #01675f;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box;   
+  box-sizing: border-box;
+  background-color: #1c272d;
+}
+
+.past-proj-txt h1 {
+  padding: 0;
+}
+
+.past-proj-button {
+  background-color: #81a328;
+  width: 73px;
+  padding: 20px;
+  text-align: center;
+}
+
+.past-proj-button a {
+  color: #1c272d;
+  font-weight: 700;
+}
+
+#salmonid-monitoring {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+#salmonid-monitoring h3 {
+  width: 80%;
+  line-height: 25px;
+  margin: 0 auto;
+  color: #026158;
+}
+
+.program-gallery {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+
+.program-gallery-img {
+  width: 184.59px;
+  height: 191.28px;
+  margin-bottom: 5px;
+}
+
+.pgi-1 {
+  background: url('../images/project-salmonid1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.pgi-2 {
+  background: url('../images/project-salmonid2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.pgi-3 {
+  background: url('../images/index/index-salmonid3.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.pgi-4 {
+  background: url('../images/projects-salmonid.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.program-text {
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.program-text a {
+  color: #71bdb6;
+  text-decoration: none;
+}
+
+.program-vid {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.program-vid iframe {
+  width: 100%;
+}
+
+#stream-rehab {
+  width: 100%;
+}
+
+.stream-rehab-title {
+  background-color: #1a4351;
+  padding-top: 50px;
+  padding-bottom: 80px;
+  position: relative;
+}
+
+.stream-rehab-title p {
+  width: 60%;
+  color: #ffffff;
+  font-style: italic;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.stream-rehab-hero {
+  width: 85%;
+  height: 130px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  background: url('../images/project-steameye.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#stream-rehab .program-text {
+  padding-top: 30px;
+}
 
 /*          MOBILE EVENTS PAGE BEGINS HERE    */
 
@@ -1314,10 +1578,17 @@ input[type=submit]{
   opacity:0.9;
 }
 
+/* OTHER MEDIA QUERY */
+@media screen and (min-width:495px) {
+  .current-proj-Content {
+    padding-bottom: 230px;
+  }
+
+}
 
 /*     TABLET MEDIA QUERY BEGINS    */
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 768px) {
 
   body{
     font-size:14px;
@@ -1800,6 +2071,102 @@ input[type=submit]{
     height: 280px;
   }
 
+  /* TABLET PROJECTS PAGE HERE */
+  #current-proj {
+    padding-bottom: 100px;
+  }
+
+  #current-proj h2{
+    padding-bottom: 0;
+  }
+
+  .current-proj-Content {
+    flex-direction: row;
+    padding-bottom: initial;
+    margin-top: 80px;
+  }
+
+  .current-proj-img {
+    width: 70%;
+    height: 450px;
+  }
+  
+  .current-proj-txt {
+    width: 50%;
+    left: initial;
+    top: 60px;
+    right: 0;
+    padding: 20px;
+  }
+
+  .current-proj-txt h1 {
+    font-size: 24px;
+    line-height: 30px;
+    width: 60%;
+    padding-bottom: 10px;
+    padding-right: 30px;
+  }
+
+  .current-proj-txt p {
+    font-size: 13px;
+    line-height: 21px;
+  }
+
+  #current-proj-Content-Trout {
+    flex-direction: row-reverse;
+  }
+
+  #current-proj-txt-Trout {
+    right: initial;
+    left: 0;
+  }
+
+  .past-proj-Content {
+    padding-bottom: 200px;
+  }
+
+  .past-proj-Container {
+    width: 65%;
+  }
+
+  .past-proj-txt {
+    width: 60%;
+  }
+
+  .past-proj-contTitle {
+    width: 60%;
+  }
+
+  .past-proj-contTitle h1 {
+    font-size: 31px;
+    line-height: 41px;
+  }
+
+  .past-proj-button {
+    flex: 1;
+  }
+
+  .stream-rehab-hero {
+    height: 287px;
+  }
+
+  .program-text {
+    width: 55%;
+  }
+
+  #stream-rehab {
+    padding-bottom: 50px;
+  }
+
+  .stream-rehab-title h2 {
+    padding-bottom: 40px;
+  }
+
+  #stream-rehab .program-text {
+    padding-top: 210px;
+  } 
+
+
   /*       TABLET EVENTS PAGE HERE    */
 
   #events-new{
@@ -1908,6 +2275,11 @@ input[type=submit]{
 }
 
 /*     OTHER MEDIA QUERY BEGINS HERE   */
+@media screen and (min-width:900px) {
+  .past-proj-contTitle {
+    width: 55%;
+  }
+}
 
 @media screen and (min-width:1000px) {
   .local-business-Container {
@@ -1927,7 +2299,7 @@ input[type=submit]{
 
 /*     DESKTOP MEDIA QUERY BEGINS    */
 
-@media screen and (min-width:769px) {
+@media screen and (min-width:1280px) {
 
   body{
     font-family: 'Montserrat', sans-serif;
@@ -2235,6 +2607,73 @@ input[type=submit]{
   #about-button a {
     color: #1c272d;
   }
+
+  /* DESKTOP PROJECTS PAGE */
+  .current-proj-txt {
+    width: 45%;
+    padding: 40px 45px;
+    top: initial;
+    bottom: 50px;
+  }
+
+  .current-proj-txt h1 {
+    font-size: 30px;
+    line-height: 41px;
+  }
+
+  .current-proj-img {
+    height: 700px;
+  }
+
+  .past-proj-Container {
+    width: 70%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .past-proj-Content {
+    width: 45%;
+    padding-bottom: 60px;
+  }
+
+  .past-proj-img {
+    height: 350px;
+  }
+
+  .past-proj-txt {
+    width: 90%;
+    position: initial;
+  }
+
+  .past-proj-button a {
+    color: #1c272d!important;
+  }
+
+  #salmonid-monitoring {
+    padding-top: 90px;
+  }
+
+  .program-gallery {
+    margin-top: 80px;
+  }
+
+  .program-text {
+    width: 40%;
+  }
+
+  .stream-rehab-title p {
+    width: 50%;
+  }
+
+  .stream-rehab-hero {
+    height: 473px;
+  }
+
+  #stream-rehab .program-text {
+    padding-top: 410px;
+  }
+
+  /* DESKTOP EVENTS */
 
   #events-upcoming{
     margin:0 auto;
@@ -2594,7 +3033,6 @@ input[type=submit]{
 /*   DESKTOP QUERY FIXES  */
 
 @media screen and (min-width:970px) {
-
 
   /*  CONTACT PAGE FIXES  */
 
