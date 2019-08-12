@@ -1044,8 +1044,8 @@ ul.mission-Content {
 }
 
 .program-gallery-img {
-  width: 184.59px;
-  height: 191.28px;
+  width: 49%;
+  height: 150px;
   margin-bottom: 5px;
 }
 
@@ -1841,6 +1841,12 @@ input[type=submit]{
   .projects-home-img, .projects-home-img img { width: 100%; }
 
   .projects-home-txt { padding-bottom: 0; height: auto; }
+
+  .program-gallery-img {
+    width: 24%;
+    height: 180px;
+    margin-bottom: 5px;
+  }
 
   /* TABLET ABOUT PAGE HERE */
   #about-page-info { width: 554.99px; margin-top: -400px; }
