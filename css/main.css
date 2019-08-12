@@ -1550,7 +1550,7 @@ input[type=submit]{
 
   #index-head{
     background-image:url('../images/index-header-img-tablet.png');
-    background-position: center;
+    background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
     height:1055px;
@@ -2460,6 +2460,9 @@ input[type=submit]{
     justify-content:space-between;
   }
   .gallery-Content img{ margin:0 auto; }
+
+  .local-business-Content1{ background-color:#042f3d; padding-bottom:90px; }
+  .local-business-Content2{ background-color:#042f3d; padding-bottom:80px; }
 
 
   /* DESKTOP PROJECTS PAGE */
