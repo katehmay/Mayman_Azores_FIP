@@ -1,8 +1,8 @@
-<h1>Client-Based Website for Anglers.org</h1>
+#Client-Based Website for Anglers.org<
 <h3>Project Description</h3>
-<p>Our team is responsible for designing, coding and semantically tagging a static, 6 page, HTML5 website for anglers.org. CSS3 will also be properly utilized. For the purposes of the midterm project deadline, 4 static webpages will be completed.</p>
+<p>Our team is responsible for designing, coding and semantically tagging a static, 6 page, HTML5 website for anglers.org. CSS3 will also be properly utilized. For the purposes of the midterm project deadline, 6 static webpages will be completed.</p>
 
-<h3>Group Responsibilities</h3>
+<h3>Group Midterm Responsibilities</h3>
 <b>UI/UX Design</b>
 <p>Mikka Azores' responsibilities:
   <ul>
@@ -14,16 +14,9 @@
   </ul>
 </p>
 
-<b>Visual design</b>
-<p>Kateh Mayman's responsibilities:
-  <ul>
-    <li>Finalizing 6 page DESIGN psd using Mikka's finalized wireframes. Control assigned to Kateh for this particular portion as she is our designated graphic designer.</li>
-    <li>Style guide using InDesign</li>
-    <li>Header & Footer stylized</li>
-    <li>Semantic tagging & styling</li>
-    <li>Complete 2 pages of static website for desktop</li>
-  </ul>
-</p>
+<h3>Group Final Responsibilities</h3>
+<b>Design and Development</b>
+<p>Kateh Mayman and Mikka Azores separated the workload by diving the six pages. Each person is then in charge of the responsive wireframes, design, and core of each three pages.
 
 <h3>Contributing</h3>
 <p>Closed repository developed by Kateh Mayman and and Mikka Azores. Only approved contributors may edit.</p>
@@ -34,6 +27,7 @@
     <li>Adobe Illustrator CC</li>
     <li>Atom w/ Emmet</li>
     <li>HTML5 & CSS3</li>
+    <li>Javascript</li>
   </ul>
 
 <h3>License</h3>
